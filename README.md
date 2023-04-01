@@ -4,7 +4,7 @@ This project aims to classify glass samples using machine learning techniques im
 "Glass Identification" data set from the UCI Machine Learning Repository: This data set contains 214 samples of glass of different types and their respective refractive index and chemical composition. The data set can be found at: https://archive.ics.uci.edu/ml/datasets/Glass+Identification
 
 
-OVERVIEW
+# OVERVIEW
 Developing novel glasses with new, improved properties and functionalities is key
 to address some of the Grand Challenges facing our society. Although the
 process of designing a new material is always a difficult task, the design of novel
@@ -55,7 +55,7 @@ Unsupervised machine learning can, for instance, be used to identify some
 clusters within existing data, that is, to identify some families of data points that
 share similar characteristics.
 
-METHOD
+# METHOD
 1. Import the required modules like pandas, numpy, etc.
 2. Import the glass data frame as cvs file.
 3. Learn the basic characteristics of the data frame such as its size, number of
@@ -115,7 +115,7 @@ dataset. For very large training sets, KNN can be made stochastic by taking a
 sample from the training dataset from which to calculate the K-most similar
 instances.
 
-LIMITATIONS AND CHALLENGES:
+# LIMITATIONS AND CHALLENGES:
 Although machine learning offers a unique, largely untapped opportunity to
 accelerate the discovery of novel glasses with exotic functionalities, it faces
 several challenges.
@@ -133,8 +133,7 @@ In addition, since they are usually only driven by data and do not embed any
 physics- or chemistry-based knowledge, machine learning models can
 sometimes violate the laws of physics or chemistry.
 
-OVERVIEW OF MACHINE LEARNING TECHNIQUES FOR GLASS
-SCIENCE REGRESSION TECHNIQUES
+# OVERVIEW OF MACHINE LEARNING TECHNIQUES FOR GLASS SCIENCE REGRESSION TECHNIQUES
 
 1. PARAMETRIC AND NONPARAMETRIC REGRESSION
 Regression consists of fitting known data points to establish a functional
@@ -159,7 +158,7 @@ regression) to offer reliable predictions.
 used to assess the accuracy of the model by comparing its predictions to a
 fraction of the dataset that is kept unknown to the model.
 
-MACHINE LEARNING FORCEFIELDS FOR GLASS MODELLING
+# MACHINE LEARNING FORCEFIELDS FOR GLASS MODELLING
 MD simulations are an important tool to access the atomic structure of glasses
 and, thereby, decipher the nature of the relationship between glass composition
 and properties. However, the reliability of MD (or Monte Carlo) simulations is
@@ -171,7 +170,7 @@ use of machine learning to develop complex, non-analytical interatomic
 forcefields, such forcefields present low interpretability and have been largely
 restricted to simple monoatomic or diatomic systems thus far.
 
-CONCLUSION
+# CONCLUSION
 Overall, machine learning techniques offer a unique, largely untapped
 opportunity to leapfrog current glass design approaches—a process that has thus
 far remained largely empirical and based on previous experience. When
